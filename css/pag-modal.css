@@ -1,0 +1,102 @@
+/*-- CSS --*/
+.modal {
+    position: fixed;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    background: rgba(0,0,0,0.5);
+    z-index: 99999;
+    opacity:0;
+    pointer-events: none;
+}
+
+.modal:target {
+    opacity: 1;
+    pointer-events: auto;
+}
+
+div.modal {
+    width: 100%;
+    height: 100%;
+    position: fixed;
+    padding: 7% 5%;
+}
+
+a.fechar {
+    position: absolute;
+    width: 30px;
+    text-align: center;
+    line-height: 30px;
+    top: 10.3%;
+    left: 3.7%;
+    background: #006d2f;
+    border-radius: 50%;
+    font-size: 16px;
+    color: #ebebeb;
+}
+a.fechar:hover, a.fechar:link, a.fechar:active{
+    background: #c19e47;
+    color: #ebebeb;
+    text-decoration: none;
+    border: solid;
+}
+
+div.janelao {
+    height: 62%;
+    width: 86%;
+    background-color: #ffffff;
+    border-radius: 15px;
+    padding: 25px;
+}
+/*-- FIM CSS --*/
+
+/*-- BUTTOM CSS --*/
+.buttom {
+    border-radius: .25rem;
+    margin: 15px 32%;
+    background-color: #b4923e;
+    border-color: #b4923e;
+    width: 250px;
+    position: relative;
+    float: right;
+/*texto*/
+    font-weight: 400;
+    text-align: center;
+    border: 1px solid transparent;
+    padding: .375rem .75rem;
+    font-size: 1rem;
+    line-height: 1.5;
+}
+
+/*-- IMAGEM CSS --*/
+.img-radius {
+    width: 70px;
+    box-shadow: 2px 2px 0 1px rgba(0,0,0,.25);
+    border-radius: 50%;
+    position: relative;
+    float: right;
+}
+
+.title-modal::before, .title-modal::after {
+    content: '';
+    height: 5px;
+    background-color: #b4923e;
+    display: block;
+    margin-bottom: 15px;
+}
+
+.box-cont {
+    height: 70px;
+    margin: 10px;
+}
+
+.conteudo {
+    padding: 20px 0;
+    text-align: center;
+}
+
+.title-modal {
+    text-align: center;
+}

@@ -1,0 +1,25 @@
+<div>
+    <div>
+        <div>
+            <div></div>
+            <div>Vivamus laoreet. Quisque id odio. Vivamus in erat ut urna cursus vestibulum. teste</div>
+        </div>
+        <div>
+            <div>face</div>
+            <div>youtubr</div>
+            <div>insta</div>
+            <div>linkedin</div>
+        </div>
+    </div>
+    <div></div>
+    <div>
+        <div>
+            <div>
+                <span>perguntas</span>
+            </div>
+            <div>
+                <span>Resposta</span>
+            </div>
+        </div>
+    </div>
+</div>
